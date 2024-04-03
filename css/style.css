@@ -1,0 +1,90 @@
+*{
+    background-color: #151925;
+    color: #ffffff;
+    text-decoration: none;
+}
+
+.contact-content span{
+    color: #01EEFF;
+}
+
+.contact-section {
+    padding: 0 80px;
+    height: 680px;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.contact-section h1 {
+    font-family: 'Sen', sans-serif;
+    font-weight: 800;
+    font-size: 50px;
+    margin-bottom: 20px;
+}
+
+.kiri-conta{
+    max-width: 400px;
+    float: left;
+    font-family: 'Inter', 'Sans-serif';
+    font-size: 12px;
+}
+
+.kanan-conta{
+    float: right;
+    max-width: 500px;
+}
+
+.kanan-conta img{
+    width: 300px;
+    height: 330px;
+}
+
+.input-field input[type="text"] {
+    background-color: #BFBFBF;
+    height: 30px;
+    width: 300px;
+    margin-top: 20px;
+    border-radius: 6px;
+    font-family: 'Inter', 'Sans-serif';
+    color: black;
+}
+
+.textarea-field textarea {
+    background-color: #BFBFBF;
+    width: 300px;
+    margin-top: 20px;
+    border-radius: 6px;
+    font-family: 'Inter', 'Sans-serif';
+    color: black;
+}
+
+.submit-btn button {
+    background-color: #01EEFF;
+    color: black;
+    border-radius: 6px;
+    font-family: 'Inter', 'Sans-serif';
+    height: 25px;
+    width: 50px;
+    margin-top: 20px;
+}
+
+.medsos {
+    display: flex;
+    flex-direction: column;
+}
+
+.medsos i {
+    font-size: 20px;
+    color: #01EEFF;
+}
+
+.medsos a {
+    margin-bottom: 6px;
+    color: white;
+    font-size: 18px;
+}
+
+label.error{
+    color: red;
+    display: block;
+}
